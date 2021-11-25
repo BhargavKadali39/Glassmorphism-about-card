@@ -85,14 +85,15 @@ body{
     margin-top: -150px;
 }
 
+
 @media screen and (max-width: 768px) {
     .name{
-        width: 600px;
+        width: 60%;
         position: absolute;
         left: 60%;
         top: 60%;
         height: 400px;
-        margin: -200px -100px 0 -350px;
+        margin: -200px -200px 0 calc(60% - 600px);
         padding: 0 -30px 0 -30px;
     }
     h1{
@@ -102,6 +103,5 @@ body{
         font-size: 20px;
     }
 }
-
 
 
