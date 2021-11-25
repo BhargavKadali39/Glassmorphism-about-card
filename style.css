@@ -1,16 +1,11 @@
 
-
 body{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0.15px; /* body is full of absolute and fixed elements which have 0 height on body, so added this to counter it */
     box-sizing: border-box;
     background: linear-gradient(90deg, rgb(0, 59, 56), rgb(0, 202, 192));
 }
 
-p{
-    margin: 0;
-    height: 0.1px;
-}
 
 .c{
     position: absolute;
@@ -89,4 +84,7 @@ p{
     border-radius: 50%;
     margin-top: -150px;
 }
+
+
+
 
